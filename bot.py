@@ -9,6 +9,10 @@ BOT_TOKEN = "8773180444:AAFqH82a0WHIm6U2RG4knBUG1W2vBvJnSTI"
 bot = telebot.TeleBot(BOT_TOKEN)
 bot.remove_webhook()
 
+bot.remove_webhook()
+import time
+time.sleep(1)  # انتظر ثانية للتأكد من حذف webhook
+
 # ========== بيانات Service Account مباشرة ==========
 # انسخ محتوى ملف JSON الذي حملته من Firebase Console هنا
 # الملف يبدو هكذا:
